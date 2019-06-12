@@ -5,5 +5,5 @@ WORKDIR /app
 
 RUN yarn
 
-ENTRYPOINT [ "npm" ]
-CMD [ "start" ]
+ENTRYPOINT [ ]
+CMD [ "npm","start" ]

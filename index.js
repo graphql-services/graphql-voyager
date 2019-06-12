@@ -1,7 +1,13 @@
 const express = require('express');
 const voyager = require('graphql-voyager/middleware');
 
+const { server } = require('./apollo-server');
+
 const app = express();
+
+if (server) {
+  server.applyMiddleware({ app });
+}
 
 app.use(
   '/',
