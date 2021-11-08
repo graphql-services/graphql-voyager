@@ -3,7 +3,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "apollo-server": "^2.6.3",
+    "apollo-server": "^2.25.3",
     "express": "^4.16.3",
     "graphql": "^14.3.1",
     "graphql-voyager": "^1.0.0-rc.19"
